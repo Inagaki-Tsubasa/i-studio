@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./CardSecond.module.css";
 
 interface CardProps {
@@ -16,7 +17,9 @@ const CardSecond = ({ title, text }: CardProps) => {
           </li>
         </ul>
         <div className={styles.data}>
-          <a href="/">sampleLink</a>
+          <Link href="/" legacyBehavior>
+            <a>sampleLink</a>
+          </Link>
           <p>20##-##-##</p>
         </div>
         <p>{text}</p>
