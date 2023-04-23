@@ -1,0 +1,12 @@
+.footerSec {
+  background-color: rgb(163, 163, 163);
+  margin-top: 10%;
+  padding: 3%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footerSec img {
+  width: 12%;
+}

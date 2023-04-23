@@ -1,0 +1,29 @@
+.blogSec {
+  padding-right: 5.856515373352855vw;
+  padding-left: 20.937042459736457vw;
+  padding-top: 20%;
+  /* padding-bottom: 10%; */
+}
+
+.blogTitle {
+  display: flex;
+  padding-bottom: 6%;
+}
+
+.blogTitle h1 {
+  padding-right: 3%;
+  margin-right: 3%;
+  border-right: 1px solid #dadadb;
+}
+
+.blogTitle p {
+  color: #6b6b70;
+  font-size: 80%;
+  line-height: 2;
+  padding-top: 1%;
+  letter-spacing: 0.3em;
+}
+
+.cardThreeData {
+  display: flex;
+}

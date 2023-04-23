@@ -1,0 +1,26 @@
+.cardDetail {
+  /* display: flex; */
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  height: 175px;
+  border-radius: 8px;
+  width: 20%;
+  margin-left: 5%;
+  flex-wrap: nowrap;
+}
+
+.cardDetail p {
+  padding: 4%;
+  font-size: 190%;
+  color: black;
+  font-family: quasimoda, "Avenir Next", "Arial Black", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0;
+  word-break: break-all;
+  white-space: pre-line;
+  font-weight: 600 !important;
+}
