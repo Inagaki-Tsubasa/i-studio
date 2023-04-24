@@ -21,7 +21,7 @@ const News = () => {
         />
         <CardSecond
           title="sampletext"
-          text="sample sample sample sample sample sample sample sample sample sample sample sample sample  sample sample  sample sample  "
+          text="sample sample sample sample sample sample sample sample sample sample sample sample  sample sample  sample sample  "
         />
         <CardSecond
           title="sampletext"
