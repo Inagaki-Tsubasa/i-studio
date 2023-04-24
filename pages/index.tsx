@@ -10,12 +10,14 @@ import What from "../components/What";
 import Career from "../components/Career";
 import Footer from "../components/Footer";
 import AnimationTrigger from "../components/AnimationTrigger";
+import Header from "../components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <AnimationTrigger animation="fadeIn" rootMargin="-25%" triggerOnce>
         <Blog />
