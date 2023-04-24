@@ -10,11 +10,11 @@
   overflow-x: hidden;
 }
 
-.menu ul li a:hover {
+.menu ul li p:hover {
   color: black;
 }
 
-.menu ul li a:hover::after {
+.menu ul li p:hover::after {
   /* opacity: 0.1; */
   background-color: rgba(255, 255, 255, 3);
   opacity: 0.4;
@@ -71,7 +71,7 @@
   list-style: none;
 }
 
-.menu ul li a {
+.menu ul li p {
   font-size: 80%;
   text-decoration: none;
   display: inline-block;
@@ -80,6 +80,7 @@
   color: rgb(182, 169, 169);
   /* opacity: 1; */
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .menuA {

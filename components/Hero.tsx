@@ -16,29 +16,40 @@ const Hero = () => {
         <div className={styles.menu}>
           <ul className={styles.menuUl}>
             <li className={styles.menuLi}>
-              <a href="/">sample.1</a>
+              <Link to="/">
+                <p>sample.1</p>
+              </Link>
             </li>
             <li>
-              <a href="/">sample.2</a>
+              <Link to="/">
+                <p>sample.2</p>
+              </Link>
             </li>
             <li>
-              <a href="/">sample.3</a>
+              <Link to="/">
+                <p>sample.3</p>
+              </Link>
             </li>
             <li>
-              <a href="/">sample.4</a>
+              <Link to="/">
+                <p>sample.4</p>
+              </Link>
             </li>
             <li>
-              <a href="/">sample.5</a>
+              <Link to="/">
+                <p>sample.5</p>
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/">
+                <p className={styles.menuA}>sample.6</p>
+              </Link>
             </li>
             <li>
-              <a className={styles.menuA} href="/">
-                sample.6
-              </a>
-            </li>
-            <li>
-              <a className={styles.menuB} href="/">
-                sample.7
-              </a>
+              <Link to="/">
+                <p className={styles.menuB}>sample.7</p>
+              </Link>
             </li>
           </ul>
         </div>
