@@ -6,9 +6,9 @@ import Button from "./Button";
 
 const Main = () => {
   return (
-    <div className={styles.mainSec}>
+    <section className={styles.mainSec}>
       <SectionTitle />
-      <div className={styles.cardDate}>
+      <a className={styles.cardDate}>
         <Card
           imageSrc="./images/design.jpeg"
           title="sampletext"
@@ -29,9 +29,9 @@ const Main = () => {
           title="sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
-      </div>
+      </a>
       <Button />
-    </div>
+    </section>
   );
 };
 

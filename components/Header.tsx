@@ -4,14 +4,14 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className={styles.headerSec}>
-      <div className={styles.header}>
+    <section className={styles.headerSec}>
+      <header className={styles.header}>
         <div className={styles.logo}>
           <Link to="/">
             <img src="./images/icon.png" />
           </Link>
         </div>
-        <div className={styles.menu}>
+        <nav className={styles.menu}>
           <ul className={styles.menuUl}>
             <li className={styles.menuLi}>
               <Link to="/">
@@ -50,9 +50,9 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
+        </nav>
+      </header>
+    </section>
   );
 };
 
