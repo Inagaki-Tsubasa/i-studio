@@ -7,7 +7,7 @@ const Career = () => {
   return (
     <div className={styles.careerSec}>
       <SectionTitle />
-      <img src="./images/design.png" alt="" />
+      <img src="./images/sample.png" />
       <div className={styles.careerText}>
         <p>
           sampleText sampleText sampleText sampleText sampleText sampleText
@@ -17,7 +17,7 @@ const Career = () => {
       </div>
       <Button />
       <div className={styles.careerImage}>
-        <img src="./images/hero1.png" alt="" />
+        <img src="./images/sample.png" />
       </div>
     </div>
   );

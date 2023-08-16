@@ -12,17 +12,17 @@ const Blog = () => {
 
       <div className={styles.cardThreeData}>
         <CardThree
-          imageSrc="./images/worklogo.jpg"
+          imageSrc="./images/sample.png"
           title="#sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
         <CardThree
-          imageSrc="./images/design.png"
+          imageSrc="./images/sample.png"
           title="#sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
         <CardThree
-          imageSrc="./images/design.jpeg"
+          imageSrc="./images/sample.png"
           title="#sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />

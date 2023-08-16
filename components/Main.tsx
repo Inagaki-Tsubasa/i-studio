@@ -10,22 +10,22 @@ const Main = () => {
       <SectionTitle />
       <a className={styles.cardDate}>
         <Card
-          imageSrc="./images/design.jpeg"
+          imageSrc="./images/sample.png"
           title="sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
         <Card
-          imageSrc="./images/hero.webp"
+          imageSrc="./images/sample.png"
           title="sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
         <Card
-          imageSrc="./images/walltop.jpg"
+          imageSrc="./images/sample.png"
           title="sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
         <Card
-          imageSrc="./images/wall.jpeg"
+          imageSrc="./images/sample.png"
           title="sampletext"
           text="sample sample sample sample sample sample sample sample sample sample sample sample sample  "
         />
